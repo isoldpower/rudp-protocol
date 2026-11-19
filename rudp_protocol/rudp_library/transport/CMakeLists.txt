@@ -1,4 +1,4 @@
-add_library(rudp_transport STATIC src/rudp_library/transport/placeholder.cpp)
+add_library(rudp_transport STATIC src/rudp/transport/placeholder.cpp)
 
 target_include_directories(rudp_transport PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(rudp_transport

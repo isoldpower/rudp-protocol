@@ -4,8 +4,8 @@
 #include <string>
 
 
-namespace rudp_library::transport {
+namespace rudp::transport {
 
     void say_hello_n_times(const std::string& name, std::size_t count);
 
-} // namespace rudp_library::transport
+} // namespace rudp::transport

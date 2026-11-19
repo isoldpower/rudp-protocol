@@ -4,8 +4,8 @@
 #include <string>
 
 
-namespace rudp_library::platform::io {
+namespace rudp::platform::io {
 
     std::ostream& get_console_stream();
 
-} // namespace rudp_library::platform::io
+} // namespace rudp::platform::io

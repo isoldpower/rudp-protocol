@@ -3,8 +3,8 @@
 #include <string>
 
 
-namespace rudp_library::core {
+namespace rudp::core {
 
     std::string salute_from_core(const std::string& name);
 
-} // namespace rudp_library::core
+} // namespace rudp::core
